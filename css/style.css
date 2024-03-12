@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #040F0F;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+.body-jlv {
+    background-color: #040F0F;
+    font-family: sans-serif;
+    color: whitesmoke;
+}
+
+/* formato para el header y la barra de navegacion */
+
+.header {
+    background-color: transparent;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.logo-vbeats {
+    width: 200px;
+    height: auto;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: whitesmoke;
+}
+
+.navbar-toggler {
+    background-color: whitesmoke;
+}
+
+.nav-item {
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.nav-item:hover {
+    background-color: whitesmoke;
+    color: darkslategray;
+    transition: 0.5s;
+    border-radius: 3px;
+}
+
+/* formato para el home */
+
+.img-type-1 {
+    width: 100%;
+    height: auto;
+}
+
+.h1-home {
+    margin: 30px 110px;
+    text-align: left;
+    font-size: xx-large;
+}
+
+
+.p-central {
+    margin: 40px 110px;
+    text-align: justify;
+    font-size: large;
+    
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin: 10px;
+}
+
+
+.grid-plus-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(4,auto);
+    width: 50%;
+    text-align: center;
+}
+
+.grid-item {
+    background-color: gray;
+    padding: 10px;
+}
+
+.item-1 {
+    font-size: xx-large;
+}
+
+
+.img-type-2 {
+width: 40%;
+height: auto;
+display: inline;
+
+}
+
+.h2-home {
+    margin-top: 40px;
+    margin-left: 110px;
+}
+
+.p-2 {
+    margin-left: 110px;
+    margin-top: 20px;
+    margin-right: 110px;
+    text-align: justify;
+}
+
+.contenedor-beats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.beat-sample {
+    display: inline-block;
+    background-color: #45423f;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px 10px;
+   
+}
+
+.fa-solid {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: x-large;
+    margin-top: 20px;
+}
+
+.beat-img {
+    width: 140px;
+    height: auto;
+    margin: 20px;
+}
+
+.button-mas {
+    margin-left: 120px;
+}
+
+h3 {
+    font-size: large;
+}
+
+h4 {
+    font-size: medium;
+}
+
+.accordion {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+
+/* formato para el footer */
+
+.container-logo-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-vbeats-footer {
+    width: 200px;
+    height: auto;
+}
+
+
+.social-media {
+    font-size: xx-large;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+
+.fa-brands {
+    color: whitesmoke;
+    
+}
+
+
+.p-footer {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+
+/* style para la pagina servicios */
+
+.img-top-pages {
+    width: 100%;
+    height: auto;
+}
+
+.h1-pages {
+    text-align: center;
+    margin: 60px;
+
+
+}
+
+.h2-pages {
+    margin: 30px 110px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    margin-left: 110px;
+    margin-right: 110px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 10px;
+    background-color: #45423f;
+    color: whitesmoke;
+}
+
+.card a {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* style para la pagina de artistas */
+
+.artists-list {
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.artists-img {
+    width: 140px;
+    height: auto;
+    margin: 20px;
+}
+
+ul.artists-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carrousel-container {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    width: 70%;
+}
+
+/* para la pagina de contacto */
+
+.mapa-y-form {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.contact-form ul {
+    list-style: none;
+}
+
+
+/* para las animaciones */
+
+.rotate-center {
+    animation:rotate-center .6s ease-in-out both
+}
+
+@keyframes rotate-center{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
+
+
+.beat-img:hover {
+    animation:rotate-center .6s ease-in-out both
+}
+
+
+/* media queries para ajustar pantallas */
+
+@media (max-width: 576px) {
+    
+    .nav-menu {
+        flex-wrap: wrap;
+    }
+    
+    .grid-plus-img {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        margin-bottom: 20px;
+    }
+    .grid-item {
+        padding: 10px;
+    }
+    
+    .item-1 {
+        font-size: large;
+    }
+
+    .item-2 {
+        font-size: small;
+    }
+    
+    .img-type-2 {
+        margin-bottom: 20px;
+        width: 70%;
+    }
+
+    .mapa-y-form {
+        flex-wrap: wrap;
+    }
+
+    .navbar-collapse {
+        background-color: darkslategray;
+        text-align: center;
+    }
+
+    .accordion {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .card-container {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .p-central {
+        margin: 40px;    
+    }
+
+    .p-2 {
+        margin: 40px;
+    }
+
+    .h1-home {
+        margin: 40px;
+    }
+
+    .h2-home {
+        margin: 40px;
+    }
+    
+    .h2-pages {
+        margin: 40px;
+    }
+}
+    
+@media (min-width: 577px) and (max-width: 991px) {
+    .grid-plus-img {
+        flex-direction: column;
+    }
+
+    .grid-container {
+        margin-bottom: 20px;
+    }
+
+    .img-type-2 {
+        margin-bottom: 20px;
+    }
+
+    .nav-menu {
+        flex-wrap: wrap;
+    }
+
+    .navbar-collapse {
+        background-color: darkslategray;
+        text-align: center;
+    }
+
+    .accordion {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+}
