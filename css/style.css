@@ -43,6 +43,8 @@ body {
 
 .navbar-nav {
     --bs-nav-link-color: whitesmoke;
+    background-color: #45423f;
+    border-radius: 6px;
 }
 
 .navbar-toggler {
@@ -297,18 +299,26 @@ ul.artists-list {
     width: 70%;
 }
 
-/* para la pagina de contacto */
 
-.mapa-y-form {
+/* formato para la pagina store */
+
+.product-container {
     display: flex;
     justify-content: center;
-    padding: 40px;
+    flex-wrap: wrap;
+    margin: 40px;
 }
 
-.contact-form ul {
-    list-style: none;
+
+/* para la pagina de contacto */
+
+.map-container {
+    text-align: center;
 }
 
+.contact-form {
+    margin: 120px;
+}
 
 /* para las animaciones */
 
