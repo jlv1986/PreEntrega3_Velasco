@@ -231,6 +231,7 @@ h4 {
 
 /* style para la pagina servicios */
 
+
 .img-top-pages {
     width: 100%;
     height: auto;
@@ -297,6 +298,11 @@ ul.artists-list {
 
 .carousel {
     width: 70%;
+}
+
+.carousel-caption {
+    background-color: gray;
+    opacity: 85%;
 }
 
 
@@ -403,6 +409,11 @@ ul.artists-list {
     
     .h2-pages {
         margin: 40px;
+    }
+
+    .contact-form {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
     
