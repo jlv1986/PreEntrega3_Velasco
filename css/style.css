@@ -305,17 +305,6 @@ ul.artists-list {
     opacity: 85%;
 }
 
-
-/* formato para la pagina store */
-
-.product-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 40px;
-}
-
-
 /* para la pagina de contacto */
 
 .map-container {
